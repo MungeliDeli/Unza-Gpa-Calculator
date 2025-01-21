@@ -1,0 +1,103 @@
+.course_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(72, 71, 71, 0.4);
+  padding: 1rem;
+  box-shadow: 1px 0px 5px rgba(255, 255, 255, 0.144);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  gap: 2rem;
+}
+.radio_btn {
+  display: flex;
+  gap: 1rem;
+}
+.radio_btn label {
+  display: flex;
+}
+.radio_btn input {
+  margin-right: 0.4rem;
+}
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--color-green);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--color-green);
+  border-color: var(--color-green);
+}
+
+input[type="radio"]:checked::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+
+.grade_select {
+  appearance: none; 
+  background-color: #333;
+  color: #fff; 
+  border: 1px solid #444; 
+  padding: 8px 12px; 
+  border-radius: 0.5rem; 
+  font-size: 14px; 
+  cursor: pointer;
+  text-align: center; 
+  text-align-last: center;
+}
+
+
+.grade_select:focus,
+.grade_select:not([value=""]) {
+  background-color: #444; 
+}
+
+
+.grade_select:focus {
+  outline: none;
+}
+
+x
+.grade_select option {
+  background-color: #333;
+  color: #fff; 
+  padding: 8px; 
+  text-align: center;
+}
+
+
+.grade_select option:hover {
+  background-color: #666;
+}
+
+
+.grade_select option:disabled {
+  color: #888; 
+}
+
+@media screen and (max-width: 660px) {
+  .course_input {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .radio_btn {
+    font-size: 0.9rem;
+  }
+}
