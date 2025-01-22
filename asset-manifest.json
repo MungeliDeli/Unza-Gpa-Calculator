@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Unza-Gpa-Calculator/static/css/main.2b07cbe9.css",
+    "main.css": "/Unza-Gpa-Calculator/static/css/main.1d8687a3.css",
     "main.js": "/Unza-Gpa-Calculator/static/js/main.bcb45b59.js",
     "static/media/unzaLog.png": "/Unza-Gpa-Calculator/static/media/unzaLog.33ba6acf8d99628b435c.png",
     "static/media/smiley.png": "/Unza-Gpa-Calculator/static/media/smiley.32a060ddcf6156956bf9.png",
     "index.html": "/Unza-Gpa-Calculator/index.html",
-    "main.2b07cbe9.css.map": "/Unza-Gpa-Calculator/static/css/main.2b07cbe9.css.map",
+    "main.1d8687a3.css.map": "/Unza-Gpa-Calculator/static/css/main.1d8687a3.css.map",
     "main.bcb45b59.js.map": "/Unza-Gpa-Calculator/static/js/main.bcb45b59.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b07cbe9.css",
+    "static/css/main.1d8687a3.css",
     "static/js/main.bcb45b59.js"
   ]
 }
