@@ -176,6 +176,11 @@ function App() {
               &times;
             </button>
             <p>
+              Note: This calculates the GPA for a single accademic year.
+              To calculate overall GPA, find the Average of all your GPAs from first year 
+              
+            </p>
+            <p>
               <a
                 className="profile"
                 href="https://www.linkedin.com/in/davy-mwansa-1689aa296/"

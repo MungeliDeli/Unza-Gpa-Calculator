@@ -95,9 +95,19 @@ x
     gap: 1rem;
   }
 }
+@media screen and (max-width: 570px) {
+  .course_input {
+    padding: .4rem 1rem;
+
+  }
+}
+
 
 @media screen and (max-width: 390px) {
   .radio_btn {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  .course_input{
+    gap: 1rem;
   }
 }
